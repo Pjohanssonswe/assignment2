@@ -17,8 +17,25 @@
             <div class="card card--clr">
                 <div class="card--content">
                     <h2>Registry</h2>
-                    <p>Here you can register whatever but hopfully something that is correct.</p>
-                    <form></form>
+                        <p>Here you can register whatever but hopfully something that is correct.</p>
+                     <form>
+                        <div class="card--form">
+                            <label for="name" id="name">Name</label>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="card--form">
+                            <label for="surname" id="surname">Surname</label>
+                            <input type="text" name="surname" placeholder="Surname" required>
+                        </div>
+                        <div class="card--form">
+                            <label for="email" id="email">Email</label>
+                            <input type="text" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="card--form">
+                            <label for="age">Age</label>
+                            <input type="number" name="age" id="age" min="1" max="199" placeholder="Age" required>
+                        </div>                    
+                    </form>    
                 </div>
             </div> 
             <div class="sidebar--info">

@@ -88,5 +88,9 @@ main {
     background: var(--clr-6);
     height: 80vh;
     border-radius: 0.5rem;
-    box-shadow: 6px 6px 6px 4px;
+    box-shadow: 6px 6px 6px 4px;    
+}
+
+.card--form {
+    display: grid;
 }
