@@ -58,7 +58,7 @@ p {
 }
 
 .header--clr {
-    background: var(--clr-3);
+    background: var(--clr-2);
 }
 
 header {
@@ -67,6 +67,12 @@ header {
 
 footer {
     border: 3px solid black;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem 1fr;
+    
 }
 
 main {
@@ -103,7 +109,9 @@ main {
 }
 
 #registry {
-    padding: 1rem;
+    /*padding: 1rem;*/
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 #button {
@@ -118,4 +126,25 @@ main {
    font-weight: bold;
    text-transform: uppercase;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tm {
+    font-size: 0.4em;
+    font-weight: 900;
+}
+
+#newsletter {
+    font-size: 0.6em;
+    color: var(--clr-8);
+    margin-left: 1rem;
+}
+
+.header {
+    
+}
+
+.f1logo {
+    font-size: 3.3em;
+    font-weight: 900;
+    rotate: deg;
 }
