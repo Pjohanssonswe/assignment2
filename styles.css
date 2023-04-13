@@ -74,7 +74,8 @@ footer {
 
 .footer {
     display: grid;
-    grid-template-columns: 4rem 4rem 4rem 3px;    
+    grid-template-columns: 4rem 4rem 4rem 3px; 
+       
 }
 
 main {
@@ -169,4 +170,17 @@ form {
     gap: 0.3rem;
     display: grid;
     font-size: 1.3125rem;
+}
+
+.ftr--f {
+    color: var(--clr-4)
+}
+
+.ftr--f:hover {
+    color: var(--clr-7);
+    transition: .5s;
+}
+
+.ftr--f {
+    margin-left: 1.5rem;
 }
