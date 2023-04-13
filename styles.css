@@ -6,6 +6,8 @@
     --clr-4: #808080;
     --clr-5: #2d8f85;
     --clr-6: #1d635c;
+    --clr-7: #000000;
+    --clr-8: #f7ebeb;
 }
 
 
@@ -94,8 +96,22 @@ main {
         
 }
 
-.card--form {
+.card--form {    
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-inline: 1rem;  
+}
+
+#button {
+   position: relative;
+   width: 50%;
+   top: 2rem;
+   left: 25%;
+   padding: 0.5rem;  
+   background: linear-gradient(var(--clr-7), var(--clr-2));
+   border-top-left-radius: 8em 8em;
+   color: var(--clr-8);
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
