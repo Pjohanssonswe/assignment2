@@ -69,8 +69,7 @@ footer {
 
 .footer {
     display: grid;
-    grid-template-columns: 4rem 4rem 4rem 3px;
-    
+    grid-template-columns: 4rem 4rem 4rem 3px;    
 }
 
 main {
@@ -153,9 +152,11 @@ main {
 input {
     border-radius: 8px;
     border: 1px solid black;
+    font-size: 1.3125rem;
 }
 
 form {
     gap: 0.3rem;
     display: grid;
+    font-size: 1.3125rem;
 }
