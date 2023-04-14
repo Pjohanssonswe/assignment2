@@ -1,4 +1,3 @@
-
 :root {
     --clr-1: #15151e;
     --clr-2: #e10600;
@@ -11,12 +10,10 @@
     --clr-9: #f7f4f1;
 }
 
-
 * {
     font-family: sans-serif;
     padding: 0;    
 }
-
 
 html, body {    
     font-size: 1.3125rem;
@@ -88,7 +85,9 @@ main {
 
 .sidebar--info {
     /*border: 4px solid yellow;*/
-    margin-inline: auto;    
+    margin-inline: auto;
+    display: grid;  
+      
 }
 
 #sidebar--info--text {
@@ -111,7 +110,7 @@ main {
 .card--form {    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-inline: 1rem;     
+    margin-inline: 1rem;      
 }
 
 #registry {
@@ -133,6 +132,12 @@ main {
    font-weight: bold;
    text-transform: uppercase;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition: transform    1200ms;
+}
+
+#button:hover, #button:focus-visible {    
+    transition: transform   50ms;
+    transform: scale(1.1);    
 }
 
 #tm {
@@ -162,6 +167,7 @@ input {
     border: 1px solid black;
     font-size: 1.3125rem;
     letter-spacing: 0.6px;
+    outline: var(--clr-7);    
 }
 
 form {
