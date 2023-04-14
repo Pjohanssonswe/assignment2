@@ -84,10 +84,14 @@ main {
     }
 
 .sidebar--info {
-    /*border: 4px solid yellow;*/
-    margin-inline: auto;
+    /*border: 4px solid yellow;*/    
     display: grid;  
-      
+    place-items: center; 
+}
+
+.sidebar--info {
+    font-size: clamp(0.4rem, 5vh + 1rem, 1.2rem);
+    margin-left: 1rem;
 }
 
 #sidebar--info--text {
