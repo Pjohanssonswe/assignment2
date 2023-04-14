@@ -49,7 +49,8 @@ p {
 }
 
 .card--clr {
-    background: var(--clr-3);
+    /*background: var(--clr-3);*/
+    background: var(--clr-9);
 }
 
 .footer--clr {
@@ -71,8 +72,8 @@ footer {
 }
 
 .main-content {
-    /*min-height: 100vh;
-    min-height: 100dvh;*/
+    min-height: 100vh;
+    min-height: 100dvh;
     display: grid;        
     }
 
@@ -82,12 +83,15 @@ footer {
 }
 
 .sidebar--info {
-    font-size: clamp(0.4rem, 5vh + 1rem, 1.2rem);
+    /*font-size: clamp(0.3rem, 3vh + 1rem, 1rem);*/
+    font-size: 1rem;
     margin-left: 1rem;
+    gap: 1rem;
 }
 
-#sidebar--info--text {
+.sidebar--info--text {
     color: var(--clr-7);
+    
 }
 
 @media (min-width: 800px) {
@@ -143,6 +147,12 @@ footer {
     font-size: 0.6em;
     color: var(--clr-8);
     margin-left: 1rem;
+    
+}
+
+#newsletter::after {
+    color: red;
+    content: '>'
 }
 
 .header {    
