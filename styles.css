@@ -97,6 +97,44 @@ footer {
 @media (min-width: 800px) {
     .main-content {       
         grid-template-columns: 4fr 1fr auto;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 800px) {
+    .f1logo {
+        /*margin-left: 11rem;        
+        transition: 400ms ease-in-out;*/
+        display: grid;
+        place-content: center;        
+    }
+    .card {              
+        width: 70%;
+        transition: .2s ease-in;
+    }
+}
+
+@media (min-width: 1300px) {
+    .card {
+        transition: .3s;
+        padding: 3.3%;        
+    }
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 1.3em;
+        transition: .2s;
+        -o-transition: font-size .2s linear;
+        -moz-transition: font-size .25s linear;        
+        -webkit-transition: font-size .25s  
+    }
+}
+
+@media (max-width: 799px) {
+    p {
+        font-size: 1em;
+        transition: .2s;
     }
 }
 
@@ -110,7 +148,8 @@ footer {
 .card--form {    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-inline: 1rem;      
+    margin-inline: 1rem;  
+    margin-top: 1em;    
 }
 
 #registry {    
@@ -192,3 +231,5 @@ form {
 .ftr--f {
     margin-left: 1.5rem;
 }
+
+/*got commit and push problems so this is a test row*/
