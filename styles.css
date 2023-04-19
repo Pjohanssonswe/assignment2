@@ -86,6 +86,7 @@ footer {
     /*font-size: clamp(0.3rem, 3vh + 1rem, 1rem);*/
     font-size: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     gap: 1rem;
 }
 
@@ -127,7 +128,7 @@ footer {
         transition: .2s;
         -o-transition: font-size .2s linear;
         -moz-transition: font-size .25s linear;        
-        -webkit-transition: font-size .25s  
+        -webkit-transition: font-size .25s linear; 
     }
 }
 
