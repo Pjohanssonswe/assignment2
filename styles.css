@@ -48,8 +48,7 @@ p {
     margin-inline: auto;    
 }
 
-.card--clr {
-    /*background: var(--clr-3);*/
+.card--clr {    
     background: var(--clr-9);
 }
 
@@ -103,9 +102,7 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .f1logo {
-        /*margin-left: 11rem;        
-        transition: 400ms ease-in-out;*/
+    .f1logo {        
         display: grid;
         place-content: center;        
     }
@@ -142,8 +139,7 @@ footer {
 .card--content {
     background: var(--clr-8);
     height: 80vh;
-    border-radius: 0.5rem;
-    /*box-shadow: 6px 6px 6px 4px;*/               
+    border-radius: 0.5rem;                   
 }
 
 .card--content:hover {
@@ -240,4 +236,3 @@ form {
     margin-left: 1.5rem;
 }
 
-/*got commit and push problems so this is a test row*/
