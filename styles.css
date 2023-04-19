@@ -140,10 +140,15 @@ footer {
 }
 
 .card--content {
-    background: var(--clr-6);
+    background: var(--clr-8);
     height: 80vh;
     border-radius: 0.5rem;
-    box-shadow: 6px 6px 6px 4px;           
+    /*box-shadow: 6px 6px 6px 4px;*/               
+}
+
+.card--content:hover {
+    border-bottom: 2.5px solid var(--clr-2);
+    border-right: 2.5px solid var(--clr-2);
 }
 
 .card--form {    
@@ -156,11 +161,12 @@ footer {
 #registry {    
     margin-top: 1rem;
     margin-left: 1rem;
+    color: var(--clr-7);
 }
 
 #button {
    position: relative;
-   width: 50%;
+   width: 45%;
    top: 2rem;
    left: 25%;
    padding: 0.5rem;     
@@ -171,6 +177,7 @@ footer {
    text-transform: uppercase;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    transition: transform    1200ms;
+   font-size: 0.6em;
 }
 
 #button:hover, #button:focus-visible {    
@@ -185,9 +192,9 @@ footer {
 
 #newsletter {
     font-size: 0.6em;
-    color: var(--clr-8);
+    color: var(--clr-7);
     margin-left: 1rem;
-    
+    margin-top: 0.5rem;
 }
 
 #newsletter::after {
