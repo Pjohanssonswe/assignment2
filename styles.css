@@ -136,6 +136,12 @@ footer {
     }
 }
 
+@media (max-width: 420px) {
+    input {
+        width: 180%;        
+    }
+}
+
 .card--content {
     background: var(--clr-8);
     height: 80vh;
@@ -214,7 +220,7 @@ input {
     border: 1px solid black;
     font-size: 1.3125rem;
     letter-spacing: 0.6px;
-    outline: var(--clr-7);    
+    outline: var(--clr-7);        
 }
 
 form {
